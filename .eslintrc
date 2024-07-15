@@ -1,0 +1,15 @@
+{
+    "extends": "@react-native-community",
+    "rules":{
+        "quotes":[2,"double",{"avoidEscape":true}]
+    },
+    "parserOptions": {
+        "parser": "@babel/eslint-parser",
+        "requireConfigFile": false, // <== ADD THIS
+        "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
+        "sourceType": "module" // Allows for the use of imports
+      },
+    "babelOptions":{
+        "presets":["@babel/preset-react"]
+    }  
+}
